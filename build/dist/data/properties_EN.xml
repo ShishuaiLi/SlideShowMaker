@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this is for customizing settings
+    for the Course Schedule Builder interface, NOT the Web page that we're building. 
+-->
+<properties>
+    <property_list>    
+        <property name="TITLE_WINDOW"		value="Slide Show Maker"></property>  
+        
+        <!-- PROGRAM ICON FILES -->
+		<property name="WINDOW_ICON_NAME"		value="window.png"></property>
+	
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="TOOLTIP_NEW_SLIDE_SHOW"	    value="Create a New Slide Show"></property>
+        <property name="TOOLTIP_LOAD_SLIDE_SHOW"    value="Load an Existing Slide Show"></property>
+        <property name="TOOLTIP_SAVE_SLIDE_SHOW"    value="Save this Slide Show"></property>
+        <property name="TOOLTIP_VIEW_SLIDE_SHOW"    value="View this Slide Show"></property>
+        <property name="TOOLTIP_EXIT"		    value="Exit the Application"></property>
+	<property name="TOOLTIP_ADD_SLIDE"	    value="Add Slide"></property>
+	<property name="TOOLTIP_REMOVE_SLIDE"	    value="Remove Slide"></property>
+	<property name="TOOLTIP_MOVE_UP"	    value="Move Slide Up"></property>
+	<property name="TOOLTIP_MOVE_DOWN"	    value="Move Slide Down"></property>
+	<property name="TOOLTIP_PREVIOUS_SLIDE"	    value="Previous Slide"></property>
+	<property name="TOOLTIP_NEXT_SLIDE"	    value="Next Slide"></property>
+	
+	<!-- DEFAULT VALUES -->
+	<property name="DEFAULT_IMAGE_CAPTION"	    value="ENTER CAPTION"></property>
+	<property name="DEFAULT_SLIDE_SHOW_TITLE"   value="ENTER TITLE"></property>
+	
+	<!-- UI LABELS -->
+	<property name="LABEL_CAPTION"		    value="Caption:"></property>
+    <property name="LABEL_TITLE"		    value="Title:"></property>  
+	
+	<!-- POP UP -->
+	<property name="PROMPT_TO_SAVE_TEXT"		    value="Do you want save before continue?"></property>
+	<property name="PROMPT_TO_SAVE_TITLE"		    value="Prompt to save"></property>
+	<property name="PROMPT_NEW_SLIDE"		    value="New slide show created"></property>
+	<!-- ERROR -->
+	<property name="ERROR_PROPERTIES_FILE_LOADING"		    value="Error occurred when loading the property XML file."></property>
+	<property name="ERROR_PROPERTIES_FILE_LOADING_TITLE"		    value="Loading property error"></property>
+	<property name="ERROR_DATA_FILE_LOADING"		    value="Error occurred when load a file."></property>
+	<property name="ERROR_DATA_FILE_LOADING_TITLE"		    value="Loading file error"></property>
+	
+        <!-- GUI LABELS -->
+        <property name="COURSE_HEADING_LABEL"           value="Course Site Details"></property>
+        <property name="COURSE_INFO_LABEL"              value="Course Information"></property>
+        <property name="COURSE_SUBJECT_LABEL"           value="Subject:"></property>
+        <property name="COURSE_NUMBER_LABEL"            value="Number:"></property>
+        <property name="COURSE_SEMESTER_LABEL"          value="Semester:"></property>
+        <property name="COURSE_YEAR_LABEL"              value="Year:"></property>
+        <property name="COURSE_TITLE_LABEL"             value="Title:"></property>
+        <property name="INSTRUCTOR_NAME_LABEL"          value="Instrctor Name:"></property>
+        <property name="INSTRUCTOR_URL_LABEL"           value="Instructor Homepage:"></property>
+        <property name="PAGES_SELECTION_HEADING_LABEL"  value="Site Pages"></property>
+        <property name="SCHEDULE_HEADING_LABEL"         value="Course Schedule"></property>
+        <property name="DATE_BOUNDARIES_LABEL"          value="Semester Dates"></property>
+        <property name="STARTING_MONDAY_LABEL"          value="Starting Monday:"></property>
+        <property name="ENDING_FRIDAY_LABEL"            value="Ending Friday:"></property>
+        <property name="LECTURE_DAY_SELECT_LABEL"       value="Lecture Days"></property>
+    </property_list>
+    <property_options_list>
+	    <property_options name="LAYOUT_LIST">
+	          <option>center</option>
+			  <option>left</option>
+			  <option>left_bottom</option>
+			  <option>right</option>
+			  <option>fixed</option>
+	    </property_options>
+		<property_options name="COLOR_LIST">
+	          <option>yellow</option>
+			  <option>red</option>
+			  <option>green</option>
+			  <option>blue</option>
+			  <option>black</option>
+	    </property_options>
+		<property_options name="FONT_FAMILY_LIST">
+	          <option>Raleway</option>
+			  <option>Indie Flower</option>
+			  <option>Lato</option>
+			  <option>Open Sans</option>
+			  <option>IM Fell English SC</option>
+	    </property_options>
+    </property_options_list>
+</properties>

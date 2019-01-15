@@ -1,0 +1,86 @@
+/** 
+ *  This CSS provides all the style settings for
+ *  our JavaFX controls.
+ *
+ *  @author McKilla Gorilla & _____________
+ */
+
+.slide_show_edit_vbox {
+    -fx-padding: 5px;
+    -fx-alignment: center;
+    -fx-background-image: url(../images/icons/vtoolbar.jpg);
+    -fx-background-position: top;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+}
+.slide_show_file_hbox {
+    -fx-hgap: 20px;
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+    -fx-background-image: url(../images/icons/vtoolbar.jpg);
+    -fx-background-position: left;
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    
+}
+.slide_edit_view {
+    -fx-background-radius: 10px;
+    -fx-background-color: rgb(90, 240, 90);
+    -fx-border-color: rgb(70, 5, 5);
+    -fx-border-width: 1px;
+    -fx-spacing: 60px;
+}
+
+.slide_selected_view {
+    
+    
+    -fx-border-radius: 10px;
+    -fx-border-style: solid;
+    -fx-border-color: #3399ff;
+    
+    -fx-border-width: 10px;
+}
+
+.vertical_toolbar_button {
+    -fx-label-padding: 5px 20px 5px 20px;
+}
+
+.horizontal_toolbar_button {
+    -fx-label-padding: 5px 20px 5px 20px;
+    
+    
+}
+
+.view_slide_text{
+    -fx-text-align: center;
+    -fx-font-size: 2em;
+    -fx-padding-top: 50px;
+    -fx-padding-bottom: 50px;
+}
+
+.language_pane{
+    -fx-padding: 10px;
+    -fx-alignment: center;
+    -fx-hgap: 5px;
+    -fx-vgap: 15px;
+    -fx-background-image: url(../images/icons/bgd.png);
+    -fx-background-position: center;
+    -fx-background-repeat: repeat-x;
+    
+}
+.background {
+    -fx-background-image: url(../images/icons/bgd.png);
+    -fx-background-position: center;
+    -fx-background-repeat: repeat-x;
+}
+
+
+.label_text{
+    -fx-font: 2em "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif 
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+.scroll-pane {
+   -fx-background-color: transparent;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this is for customizing settings
+    for the Course Schedule Builder interface, NOT the Web page that we're building. 
+-->
+<properties>
+    <property_list>    
+        <property name="TITLE_WINDOW"		value="个性幻灯机"></property>  
+        
+        <!-- PROGRAM ICON FILES -->
+		<property name="WINDOW_ICON_NAME"		value="window.png"></property>
+	
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="TOOLTIP_NEW_SLIDE_SHOW"	    value="新建幻灯片"></property>
+        <property name="TOOLTIP_LOAD_SLIDE_SHOW"    value="加载幻灯片"></property>
+        <property name="TOOLTIP_SAVE_SLIDE_SHOW"    value="保存幻灯片"></property>
+        <property name="TOOLTIP_VIEW_SLIDE_SHOW"    value="播放幻灯片"></property>
+        <property name="TOOLTIP_EXIT"		    value="退出"></property>
+	<property name="TOOLTIP_ADD_SLIDE"	    value="添加照片"></property>
+	<property name="TOOLTIP_REMOVE_SLIDE"	    value="删除照片"></property>
+	<property name="TOOLTIP_MOVE_UP"	    value="上移照片"></property>
+	<property name="TOOLTIP_MOVE_DOWN"	    value="下移照片"></property>
+	<property name="TOOLTIP_PREVIOUS_SLIDE"	    value="上一照片"></property>
+	<property name="TOOLTIP_NEXT_SLIDE"	    value="下一照片"></property>
+	
+	<!-- DEFAULT VALUES -->
+	<property name="DEFAULT_IMAGE_CAPTION"	    value="请添加字幕"></property>
+	<property name="DEFAULT_SLIDE_SHOW_TITLE"   value="请添加标题"></property>
+	
+	<!-- UI LABELS -->
+	<property name="LABEL_CAPTION"		    value="字幕:"></property>
+	<property name="LABEL_TITLE"		    value="标题:"></property>
+<!-- POP UP -->
+	<property name="PROMPT_TO_SAVE_TEXT"		    value="您在继续前要保存吗?"></property>
+	<property name="PROMPT_TO_SAVE_TITLE"		    value="请先保存"></property>	
+	<property name="PROMPT_NEW_SLIDE"		    value="新建幻灯片成功。"></property>
+<!-- ERROR -->
+	<property name="ERROR_PROPERTIES_FILE_LOADING"		    value="加载XML文件时出错。"></property>
+	<property name="ERROR_PROPERTIES_FILE_LOADING_TITLE"		    value="加载XML错误"></property>
+	<property name="ERROR_DATA_FILE_LOADING"		    value="加载文件出错。"></property>
+	<property name="ERROR_DATA_FILE_LOADING_TITLE"		    value="加载文件错误"></property>
+        
+        <!-- GUI LABELS -->
+        <property name="COURSE_HEADING_LABEL"           value="Course Site Details"></property>
+        <property name="COURSE_INFO_LABEL"              value="Course Information"></property>
+        <property name="COURSE_SUBJECT_LABEL"           value="Subject:"></property>
+        <property name="COURSE_NUMBER_LABEL"            value="Number:"></property>
+        <property name="COURSE_SEMESTER_LABEL"          value="Semester:"></property>
+        <property name="COURSE_YEAR_LABEL"              value="Year:"></property>
+        <property name="COURSE_TITLE_LABEL"             value="Title:"></property>
+        <property name="INSTRUCTOR_NAME_LABEL"          value="Instrctor Name:"></property>
+        <property name="INSTRUCTOR_URL_LABEL"           value="Instructor Homepage:"></property>
+        <property name="PAGES_SELECTION_HEADING_LABEL"  value="Site Pages"></property>
+        <property name="SCHEDULE_HEADING_LABEL"         value="Course Schedule"></property>
+        <property name="DATE_BOUNDARIES_LABEL"          value="Semester Dates"></property>
+        <property name="STARTING_MONDAY_LABEL"          value="Starting Monday:"></property>
+        <property name="ENDING_FRIDAY_LABEL"            value="Ending Friday:"></property>
+        <property name="LECTURE_DAY_SELECT_LABEL"       value="Lecture Days"></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>
